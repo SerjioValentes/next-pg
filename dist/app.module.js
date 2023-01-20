@@ -34,7 +34,7 @@ AppModule = __decorate([
                 password: process.env.POSTGRES_PASSWORD,
                 database: process.env.POSTGRES_DB,
                 models: [users_model_1.User, roles_model_1.Role, user_roles_model_1.UserRoles],
-                autoLoadModels: true
+                autoLoadModels: true,
             }),
             users_module_1.UsersModule,
             roles_module_1.RolesModule,
