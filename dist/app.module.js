@@ -31,7 +31,7 @@ AppModule = __decorate([
                 host: process.env.POSTGRES_HOST,
                 port: Number(process.env.POSTGRES_PORT),
                 username: process.env.POSTGRES_USER,
-                password: process.env.POSTGRES_PASSWORD.toString(),
+                password: process.env.POSTGRES_PASSWORD,
                 database: process.env.POSTGRES_DB,
                 models: [users_model_1.User, roles_model_1.Role, user_roles_model_1.UserRoles],
                 autoLoadModels: true,
